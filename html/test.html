@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Connecting to MySQL from HTML</title>
+  <!-- <script data-main = "scripts/main" src = "../javascript/require.js"></script> -->
+</head>
+<body>
+
+<script>
+  // This is highly insecure and not recommended for production use!
+  const mysql = require('mysql');
+
+  // Create a connection to the MySQL database
+  const connection = mysql.createConnection({
+    host:'MM0022674\SQLEXPRESS',
+    user:'MASSMART_\luyanda.mgabhi',
+    password:'',
+    database:'EduGuide360'
+  });
+
+  // Connect to the database
+  /* connection.connect((err) => {
+    if (err) {
+      console.error('Error connecting to MySQL database:', err);
+      return;
+    }
+    console.log('Connected to MySQL database');
+     */
+    // Example query
+   /*  connection.query('SELECT * FROM your_table', (err, rows) => {
+      if (err) {
+        console.error('Error executing query:', err);
+        return;
+      }
+      console.log('Query result:', rows);
+    });
+  }); */
+</script>
+
+</body>
+</html>

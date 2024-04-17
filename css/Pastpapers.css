@@ -1,0 +1,250 @@
+*{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+body{
+    background: url("../images/background.jpg");
+}
+
+.top-nav{
+    width: 99%;
+    overflow: hidden;
+    background-color: rgb(62, 162, 202);
+    position: fixed;
+    top:0;
+}
+
+.intro-pic1 img{
+    width: 600px;
+    height: 350px;
+    margin-top: 11%;
+    object-fit: cover;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #151f30;
+}
+
+.intro-text{
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.intro-text h1, .intro-text h4{
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.intro-text h4{
+    margin-top: 7%;
+}
+
+.logo-title{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-left: 1%;
+    margin-right: 20%;
+}
+
+/* #searchform{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 250px;
+    height: 35px;
+}
+
+#search-input{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    font: 15px system-ui;
+    background-color: white;
+    padding: 6px 9px;
+} */
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-top: 1%;
+    margin-right: 20%;
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+}
+
+.title{
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.subjects, .cao, .nsfas, .gmail, .logout{
+    font-size: 12.5px;
+}
+
+.pages a{
+    margin-top: 0%;
+    margin-right: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo-title a{
+    margin-right: 2%;
+    text-decoration: none;
+}
+
+.cao:hover, .nsfas:hover, .gmail:hover, .logout:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+    color: #151f30;
+}
+
+.register{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.register a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.subjects{
+    color: #151f30;
+    font-weight: bolder;
+}
+
+.subjects:hover{
+    cursor:default;
+}
+
+.subjects-container{
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.subject-card{
+    margin-bottom: 2%;
+    margin-left: 2%;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 100%;
+    object-fit: cover;
+    width: 260px;
+    height: 340px;
+    background-color: rgb(62, 162, 202);
+}
+
+.subject-image{
+    border-radius: 10px;
+    max-width: 100%;
+    object-fit: cover;
+    width: 210px;
+    height: 260px;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.subject-text{
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.subject-card a{
+    text-decoration: none;
+}
+
+.subject-text:hover{
+    text-decoration: underline;
+    color: #151f30;
+}
+
+.subject-card:hover{
+    transform: scale(1.1);
+    background-color: green;
+}
+
+
+.rights{
+    color: rgba(255, 255, 255, 0.545);
+    font-family: Avenirltstd book, sans-serif;
+    font-size: 15px;
+}
+
+.developer{
+    color:  rgba(255, 255, 255, 0.545);
+    font-family: Avenirltstd book, sans-serif;
+    font-size: 13px;
+    margin-bottom: 8%;
+}
+
+.contact{
+    color: rgba(255, 255, 255, 0.545);
+    padding-left: 20px;
+    margin-right: 5%;
+    font-family: Avenirltstd book, sans-serif;
+}
+
+.contact a{
+    color: white;
+}
+
+.contact a:hover{
+    color: rgb(62, 162, 202);;
+}
+
+.fb, .ig, .li{
+    margin-right: 40px;
+}
+
+
+.contact-section{
+    width: 100%;
+    margin-top: 13%;
+    background-color: #151f30;
+    height: 200px;
+}
+
+.bottom-contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.address, .call, .email{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-contact img{
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.bottom-contact p{
+    font-size: 15px;
+}
+
+.contact, .socials, .copyrights{
+    padding-top: 20px;
+    margin-left: 2%;
+}

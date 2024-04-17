@@ -1,0 +1,1 @@
+signUp.addEventListener("click", logUser);

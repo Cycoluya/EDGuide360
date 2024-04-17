@@ -1,0 +1,230 @@
+*{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+body{
+    background: url("../images/background.jpg");
+}
+
+.top-nav{
+    width: 99%;
+    overflow: hidden;
+    background-color: rgb(62, 162, 202);
+    position: fixed;
+    top:0;
+}
+
+.logo-title{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-left: 1%;
+    margin-right: 20%;
+}
+
+/* #searchform{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 250px;
+    height: 35px;
+}
+
+#search-input{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    font: 15px system-ui;
+    background-color: white;
+    padding: 6px 9px;
+} */
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-top: 1%;
+    margin-right: 20%;
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+}
+
+.title{
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.subjects, .cao, .nsfas, .gmail, .logout{
+    font-size: 12.5px;
+}
+
+.pages a{
+    margin-top: 0%;
+    margin-right: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo-title a{
+    margin-right: 2%;
+    text-decoration: none;
+}
+
+.cao:hover, .gmail:hover, .logout:hover, .subjects:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+    color: #151f30;
+}
+
+.nsfas:hover{
+    cursor:default;
+}
+
+.register{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.register a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.page-title{
+    width: 100%;
+    height: 70px;
+    margin-top: 4.5%;
+    margin-bottom: 1%;
+    background-color: #151f30;;
+    text-align: center;
+}
+
+.page-title h1{
+    color: whitesmoke;
+    padding-top: 1%;
+}
+
+.nsfas{
+    color: #151f30;
+}
+
+.content-section{
+    margin-top: 3%;
+}
+
+.text-image{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.text-image p{
+    margin-left: 3%;
+    font-weight: lighter;
+    color:#151f30;
+    margin-top: -2.2%;
+}
+
+.text-image img{
+    width: 94%;
+    height: auto;
+    margin-left: 3%;
+    padding-bottom: 2%;
+}
+
+.text-image li{
+    margin-bottom: 3%;
+    background-color: rgb(62, 162, 202);
+    width: 75%;
+}
+
+.text-image li:hover{
+    background-color: green;
+}
+
+ol{
+    list-style: none; counter-reset: li
+}
+
+li::before{
+    content: counter(li); 
+    color:whitesmoke;
+    display: inline-block; 
+    width: 1em;
+    margin-top: 1em;
+    margin-left: -2em;
+}
+
+li {
+    counter-increment: li
+}
+
+.rights{
+    color: rgba(255, 255, 255, 0.545);
+    font-family: Avenirltstd book, sans-serif;
+    font-size: 15px;
+}
+
+.developer{
+    color:  rgba(255, 255, 255, 0.545);
+    font-family: Avenirltstd book, sans-serif;
+    font-size: 13px;
+    margin-bottom: 8%;
+}
+
+.contact{
+    color: rgba(255, 255, 255, 0.545);
+    padding-left: 20px;
+    margin-right: 5%;
+    font-family: Avenirltstd book, sans-serif;
+}
+
+.contact a{
+    color: white;
+}
+
+.contact a:hover{
+    color: rgb(62, 162, 202);;
+}
+
+.fb, .ig, .li{
+    margin-right: 40px;
+}
+
+
+.contact-section{
+    width: 100%;
+    margin-top: 5%;
+    background-color: #151f30;
+    height: auto;
+}
+
+.bottom-contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.address, .call, .email{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-contact img{
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.bottom-contact p{
+    font-size: 15px;
+}
+
+.contact, .socials, .copyrights{
+    padding-top: 20px;
+    margin-left: 2%;
+}

@@ -1,0 +1,196 @@
+*{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+body{
+    background-image: url("../images/background.jpg");
+}
+
+.top-nav{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: rgb(62, 162, 202);
+    position: fixed;
+    top:0;
+}
+
+.logo-title{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-left: 1%;
+    margin-right: 70%;
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+}
+
+.title{
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.register{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.register a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 40px;
+}
+
+.logo-title a{
+    margin-right: 2%;
+    text-decoration: none;
+}
+
+.signup, .login{
+    font-size: 12.5px;
+}
+
+.signup:hover, .login:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+    color: #151f30;
+}
+
+.form{
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 35%;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 7px;
+}
+
+.form p{
+    font-size: 10px;
+    margin-left: 30%;
+}
+
+.form p a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.form p a:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+    color: red;
+}
+
+.form div{
+    margin-left: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h3{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-left: 10%;
+    color: #151f30;
+}
+
+.form input{
+    width: 80%;
+    height: 40px;
+    margin-top: 1%;
+    border-radius: 7px;
+    font-weight: lighter;
+    background-color: lightgray;
+}
+
+.form label{
+    font-weight: lighter;
+    color: #151f30;
+}
+
+#login-btn{
+    border-radius: 25px;
+    background-color: navy;
+    color: whitesmoke;
+    height: 50px;
+    width: 60%;
+    margin-left: 10%;
+}
+
+#login-btn:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.rights{
+    color: rgba(255, 255, 255, 0.545);
+    font-family: Avenirltstd book, sans-serif;
+    font-size: 15px;
+}
+
+.developer{
+    color:  rgba(255, 255, 255, 0.545);
+    font-family: Avenirltstd book, sans-serif;
+    font-size: 13px;
+    margin-bottom: 8%;
+}
+
+.contact{
+    color: rgba(255, 255, 255, 0.545);
+    padding-left: 20px;
+    margin-right: 5%;
+    font-family: Avenirltstd book, sans-serif;
+}
+
+.contact a{
+    color: white;
+}
+
+.contact a:hover{
+    color: rgb(62, 162, 202);;
+}
+
+.fb, .ig, .li{
+    margin-right: 40px;
+}
+
+
+.contact-section{
+    width: 100%;
+    margin-top: 8%;
+    background-color: #151f30;
+    height: auto;
+}
+
+.bottom-contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.address, .call, .email{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-contact img{
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.bottom-contact p{
+    font-size: 15px;
+}
+
+.contact, .socials, .copyrights{
+    padding-top: 20px;
+    margin-left: 2%;
+}
